@@ -60,17 +60,17 @@ class welcomeCard {
         if (!this.message) throw new Error("Provide message to display on card");
         if (!this.background) this.setBackground(defaultAssets.background)
 
-        if(this.username.length >= 16) {
-            throw new Error(`The username is too long to display on card [less than equal to 15]`);
-        }
+        // if(this.username.length >= 16) {
+        //     throw new Error(`The username is too long to display on card [less than equal to 15]`);
+        // }
 
-        if(this.title.length >= 16) {
-            throw new Error(`The title is too long to display on card [less than equal to 15]`);
-        }
+        // if(this.title.length >= 16) {
+        //     throw new Error(`The title is too long to display on card [less than equal to 15]`);
+        // }
 
-        if (this.message.length >= 36) {
-            throw new Error(`The message is too long to display on card [less than equal to 35]`);
-        }
+        // if (this.message.length >= 36) {
+        //     throw new Error(`The message is too long to display on card [less than equal to 35]`);
+        // }
 
         const canvasWidth = 1280;
         const canvasHeight = 720;
